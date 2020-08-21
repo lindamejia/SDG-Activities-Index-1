@@ -4,7 +4,7 @@ const { promisify } = require("util");
 
 async function getSpreadsheet() {
   const doc = new GoogleSpreadsheet(
-    `1UFYSr59H54aSMYiuGEbqOKUL41ddEhuYbQZplmhG8qs`,
+    `INSERT YOUR URL SHEET CODE HERE`,
     null,
     { gzip: false }
   );
@@ -19,7 +19,7 @@ async function getSpreadsheet() {
 
 async function getGoals() {
   const sdgDoc = new GoogleSpreadsheet(
-    `1UFYSr59H54aSMYiuGEbqOKUL41ddEhuYbQZplmhG8qs`,
+    `INSERT YOUR URL SHEET CODE HERE`,
     null,
     { gzip: false }
   );
@@ -34,7 +34,7 @@ async function getGoals() {
 
 async function addProject(data) {
   const doc = new GoogleSpreadsheet(
-    `1UFYSr59H54aSMYiuGEbqOKUL41ddEhuYbQZplmhG8qs`,
+    `INSERT YOUR URL SHEET CODE HERE`,
     null,
     { gzip: false }
   );
